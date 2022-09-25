@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    font-size: 1.5rem;
+    height: 4.5rem;
+    width: 100%;
+}
+
+nav h1 {
+    background: -webkit-linear-gradient(rgb(29, 183, 255), rgb(29, 85, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

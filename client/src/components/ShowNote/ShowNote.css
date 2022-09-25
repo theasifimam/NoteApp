@@ -1,0 +1,67 @@
+.ShowNotes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ShowNote {
+    width: 25%;
+    padding: 1.5rem;
+    background-color: var(--bg);
+    margin: 1rem;
+    border-radius: 15px;
+    color: rgb(69, 69, 69);
+    max-height: 450px;
+    min-height: 300px;
+}
+
+.delete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete i {
+    margin-bottom: 1rem;
+    background-color: var(--bg);
+    font-size: 0.7rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ShowNote:hover {
+    background-color: var(--hoverBG);
+}
+
+.ShowNote input {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    height: 2rem;
+    border: none;
+    color: rgb(110, 110, 110);
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: var(--bg);
+    padding: 1rem;
+    width: 85%;
+}
+
+.ShowNote textarea {
+    width: auto;
+    border: none;
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    background: var(--bg);
+    outline: none;
+    padding: 1.5rem;
+    overflow-y: auto;
+    min-height: 80%;
+    max-height: 80%;
+    max-width: 100%;
+
+}

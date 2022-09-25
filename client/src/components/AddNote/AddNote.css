@@ -1,0 +1,55 @@
+.AddNote {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+    padding: 3rem;
+}
+
+.AddNote input::placeholder,
+.AddNote textarea::placeholder {
+    color: grey;
+}
+
+.AddNote input {
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    background: var(--bg);
+    outline: none;
+    border: none;
+    color: black;
+}
+
+.AddNote textarea {
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    background: var(--bg);
+    outline: none;
+    padding: 1rem;
+    border: none;
+    width: 50%;
+    max-width: 80%;
+    color: black;
+}
+
+.AddNote input:hover,
+.AddNote textarea:hover {
+    background-color: var(--hoverBG);
+
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: var(--bg);
+    color: grey;
+}
+
+button:hover {
+    background-color: white;
+    transition: 0.5s;
+}
